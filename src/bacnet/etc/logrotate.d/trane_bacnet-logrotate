@@ -1,0 +1,12 @@
+/var/log/trane_bacnet.log
+{
+	su root root
+	rotate 7
+	daily
+	missingok
+	notifempty
+	compress
+	copytruncate
+	create 644 root root
+	su root root
+}
